@@ -1,6 +1,6 @@
 import sbt._
 
-class ScaratraExampleProject(info: ProjectInfo) extends DefaultWebProject(info)
+class ScalatraExampleProject(info: ProjectInfo) extends DefaultWebProject(info)
 {
   val scalaToolsSnapshots = "Scala Tools Repository" at "http://nexus.scala-tools.org/content/repositories/snapshots/"
   val sonatypeNexusSnapshots = "Sonatype Nexus Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
